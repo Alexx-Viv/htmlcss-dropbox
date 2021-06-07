@@ -1,5 +1,108 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+/* Reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Genereal Utilities*/
+.col {
+  float: left;
+  border: 1px solid black;
+  line-height: 80px;
+}
+
+.clearfix {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lil-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.big-container {
+  width: 70%;
+  margin: 0 auto;
+}
+/* Generals */
+header {
+  height: 80px;
+  background-color: sienna;
+}
+
+header .container {
+  width: 100%;
+}
+
+main .hero {
+  height: 700px;
+  border: 1px solid black;
+}
+
+main .sub {
+  height: 1870px;
+  border: 1px solid black;
+}
+
+main .contact {
+  height: 625px;
+  border: 1px solid black;
+}
+
+main .feature {
+  height: 1390px;
+  border: 1px solid black;
+}
+
+main .collab {
+  height: 840px;
+  height: 1050px;
+  border: 1px solid black;
+}
+
+main .brands-1{
+    height: 200px;
+    border: 1px solid black;
+}
+
+main .label{
+    height: 480px;
+    border: 1px solid black;
+}
+
+main .brands-2{
+    height: 360px;
+    border: 1px solid black;
+}
+
+main .faq {
+  height: 720px;
+  border: 1px solid black;
+}
+
+footer {
+  height: 500px;
+  width: 100%;
+  background-color: sandybrown;
+  border: 1px solid black;
+}
+
+/* Utilities */
+
+/* Width */
+.w-50 {
+  width: 50%;
+}
+
+/* Text Align */
+.text-right {
+  text-align: right;
+}
+
+/* Background color */
+main .hero-color {
+  background-color: #a2c0e7;
 }
