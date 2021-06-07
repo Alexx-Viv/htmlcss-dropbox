@@ -6,6 +6,12 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body{
+  max-width:1616px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
 /* Genereal*/
 .col {
   float: left;
@@ -18,7 +24,7 @@
 }
 
 .big-container {
-  width: 80%;
+  width: 82%;
   margin: 0 auto;
 }
 
@@ -57,28 +63,29 @@ nav a {
 
 /* Hero */
 main .hero {
-  height: 700px;
+  height: 745px;
 }
 
 main .hero h1 {
-  font-size: 60px;
-  padding-top: 80px;
+  font-size: 76px;
+  padding-top: 90px;
   padding-bottom: 40px;
   font-weight: 700;
 }
 
 main .hero .btn {
   display: inline-block;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  padding: 8px 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 main .hero i {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 main .hero img {
-  height: 101%;
+  height: 100%;
   margin: auto;
 }
 
@@ -179,8 +186,8 @@ footer {
 }
 
 .w-25 {
-  width: 25%;
-  height: 470px;
+  width: 34%;
+  height: 480px;
 }
 
 .w-50 {
@@ -188,8 +195,8 @@ footer {
 }
 
 .w-75 {
-  width: 75%;
-  height: 470px;
+  width: 66%;
+  height: 480px;
 }
 
 .w-70 {
@@ -218,7 +225,7 @@ main .hero-color {
 .btn.btn-blue {
   color: white;
   background-color: #0160ff;
-  padding: 5px 20px;
+  padding: 5px 17px;
 }
 
 /* Paragraph */
