@@ -3,16 +3,16 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* Genereal Utilities*/
 .col {
   float: left;
   border: 1px solid black;
-  line-height: 80px;
 }
 
-.clearfix {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -32,11 +32,8 @@
 /* Header */
 header {
   height: 80px;
-  background-color: sienna;
-}
-
-header .container {
   width: 100%;
+  background-color: sienna;
 }
 
 /* Main */
@@ -45,7 +42,19 @@ main .hero {
   border: 1px solid black;
 }
 
+main .hero h1{
+    font-size: 60px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    font-weight: 700;
+}
+
+main .banner {
+  height: 470px;
+}
+
 main .sub {
+    margin-top: 140px;
   height: 1870px;
   border: 1px solid black;
 }
@@ -65,19 +74,19 @@ main .collab {
   border: 1px solid black;
 }
 
-main .brands-title{
-    height: 200px;
-    border: 1px solid black;
+main .brands-title {
+  height: 200px;
+  border: 1px solid black;
 }
 
-main .brands{
-    height: 480px;
-    border: 1px solid black;
+main .brands {
+  height: 480px;
+  border: 1px solid black;
 }
 
-main .brands-cta{
-    height: 360px;
-    border: 1px solid black;
+main .brands-cta {
+  height: 360px;
+  border: 1px solid black;
 }
 
 main .faq {
@@ -96,10 +105,33 @@ footer {
 /* Utilities */
 
 /* Width */
+.w-30{
+    width:30%
+}
+
+.w-33{
+    width:33%
+}
+
+.w-40 {
+  width: 40%;
+  background-color: red;
+  height: 470px;
+}
+
 .w-50 {
   width: 50%;
 }
 
+.w-60 {
+  width: 60%;
+  background-color: cyan;
+  height: 470px;
+}
+
+.w-70 {
+    width: 70%;
+  }
 /* Text Align */
 .text-right {
   text-align: right;
@@ -108,4 +140,40 @@ footer {
 /* Background color */
 main .hero-color {
   background-color: #a2c0e7;
+}
+
+
+/* DA ELIMINARE */
+.background-tutto{
+    background-color: red;
+    opacity: 0.5;
+    height: 1800px;
+  border: 1px solid black;
+}
+
+.background-reniented{
+    background-color: blue;
+    opacity: 0.5;
+    height: 800px;
+  border: 1px solid black;
+}
+
+.posso{
+    background-color: darkgreen;
+    height: 200px;
+}
+
+.nonposso{
+    background-color: darkgoldenrod;
+    height: 200px;
+}
+
+.immmage{
+    background-color: darkred;
+    height: 580px;
+}
+
+.img{
+    height: 200px;
+    background-color: darkslateblue;
 }
