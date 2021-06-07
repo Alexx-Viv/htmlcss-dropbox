@@ -18,16 +18,18 @@
   clear: both;
 }
 
-.lil-container {
+.big-container {
   width: 80%;
   margin: 0 auto;
 }
 
-.big-container {
+.lil-container {
   width: 70%;
   margin: 0 auto;
 }
 /* General */
+
+/* Header */
 header {
   height: 80px;
   background-color: sienna;
@@ -37,6 +39,7 @@ header .container {
   width: 100%;
 }
 
+/* Main */
 main .hero {
   height: 700px;
   border: 1px solid black;
@@ -58,22 +61,21 @@ main .feature {
 }
 
 main .collab {
-  height: 840px;
   height: 1050px;
   border: 1px solid black;
 }
 
-main .brands-1{
+main .brands-title{
     height: 200px;
     border: 1px solid black;
 }
 
-main .label{
+main .brands{
     height: 480px;
     border: 1px solid black;
 }
 
-main .brands-2{
+main .brands-cta{
     height: 360px;
     border: 1px solid black;
 }
@@ -83,6 +85,7 @@ main .faq {
   border: 1px solid black;
 }
 
+/* Footer */
 footer {
   height: 500px;
   width: 100%;
