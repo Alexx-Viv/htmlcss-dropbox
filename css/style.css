@@ -6,7 +6,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
-/* Genereal Utilities*/
+/* Genereal*/
 .col {
   float: left;
 }
@@ -26,7 +26,7 @@
   width: 70%;
   margin: 0 auto;
 }
-/* General */
+/* Body */
 
 /* Header */
 header {
@@ -67,29 +67,61 @@ main .hero h1 {
   font-weight: 700;
 }
 
-main .hero .btn{
-    display: inline-block;
-    margin-top: 15px;
-    margin-bottom: 15px;
+main .hero .btn {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
-main .hero i{
-    margin-top: 50px;
+main .hero i {
+  margin-top: 50px;
 }
 
-main .hero img{
-    height: 101%;
-    margin:auto;
+main .hero img {
+  height: 101%;
+  margin: auto;
 }
 
 main .banner {
   height: 533px;
 }
 
+/* Subscription */
 main .sub {
   margin-top: 140px;
   height: 1870px;
-  border: 1px solid black;
+}
+
+.sub .monthly{
+    padding-left: 30px;
+}
+
+.sub .col {
+    padding: 30px;
+}
+
+.sub .col-content{
+    font-size: 14px;
+    height: 800px;
+}
+
+.sub .col *{
+    padding: 5px 10px;
+}
+
+.sub .col .prezzo{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.sub .col .utenza{
+    font-size: 12px;
+}
+
+/* Enterprise Solution */
+main .enterprise-solution{
+    padding-left: 30px;
+    padding-right: 40px;
 }
 
 main .contact {
@@ -143,10 +175,10 @@ footer {
 }
 
 .w-33 {
-  width: 30%;
+  width: 33%;
 }
 
-.w-40 {
+.w-25 {
   width: 25%;
   height: 470px;
 }
@@ -155,10 +187,9 @@ footer {
   width: 50%;
 }
 
-.w-60 {
+.w-75 {
   width: 75%;
   height: 470px;
-  
 }
 
 .w-70 {
@@ -168,6 +199,10 @@ footer {
 /* Text Align */
 .text-right {
   text-align: right;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* Background color */
@@ -182,13 +217,35 @@ main .hero-color {
 
 .btn.btn-blue {
   color: white;
-  background-color: #0160FF;
+  background-color: #0160ff;
   padding: 5px 20px;
 }
 
 /* Paragraph */
-.box{
-    font-size: 14px;
+.box {
+  font-size: 14px;
+}
+
+/* Title */
+.sub .title-middle {
+  font-size: 36px;
+  font-weight: 700;
+  padding-left: 30px;
+}
+
+.sub .col .title-little{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Borders */
+.borders {
+  border: 1px solid gray;
+}
+
+/* Pdding */
+.little-padding{
+    padding: 5px 0;;
 }
 
 /* DA ELIMINARE */
@@ -196,13 +253,6 @@ main .hero-color {
   background-color: red;
   opacity: 0.5;
   height: 1800px;
-  border: 1px solid black;
-}
-
-.background-reniented {
-  background-color: blue;
-  opacity: 0.5;
-  height: 800px;
   border: 1px solid black;
 }
 
@@ -225,4 +275,5 @@ main .hero-color {
   height: 200px;
   background-color: darkslateblue;
 }
+
 
