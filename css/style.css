@@ -29,7 +29,7 @@ body{
 }
 
 .lil-container {
-  width: 70%;
+  width: 69%;
   margin: 0 auto;
 }
 /* Body */
@@ -95,7 +95,7 @@ main .banner {
 
 /* Subscription */
 main .sub {
-  margin-top: 140px;
+  margin-top: 200px;
   height: 1870px;
 }
 
@@ -103,8 +103,8 @@ main .sub {
     padding-left: 30px;
 }
 
-.sub .col {
-    padding: 30px;
+.sub .col:nth-child(2){
+  margin: 0 55px;
 }
 
 .sub .col-content{
@@ -112,17 +112,46 @@ main .sub {
     height: 800px;
 }
 
-.sub .col *{
-    padding: 5px 10px;
+.sub .col-content ul{
+  padding-top: 30px;
+
+}
+
+.sub .col-content li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#uffa{
+  padding:0;
+  border-bottom: 1px solid black;
+}
+
+.sub .col li::before{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight: 900; 
+  content: "\f00c";
+  color: #0160ff;
+}
+
+.sub .col-content .btn{
+  display:  block;
+  text-align: center;
+  margin: 18px auto;
+  width: 85%;
 }
 
 .sub .col .prezzo{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
 }
 
 .sub .col .utenza{
     font-size: 12px;
+}
+
+.sub .acquista{
+  margin: 0 auto;
 }
 
 /* Enterprise Solution */
@@ -185,7 +214,7 @@ footer {
   width: 33%;
 }
 
-.w-25 {
+.w-34 {
   width: 34%;
   height: 480px;
 }
@@ -194,7 +223,7 @@ footer {
   width: 50%;
 }
 
-.w-75 {
+.w-66 {
   width: 66%;
   height: 480px;
 }
@@ -234,14 +263,13 @@ main .hero-color {
 }
 
 /* Title */
-.sub .title-middle {
-  font-size: 36px;
+.title-middle {
+  font-size: 40px;
   font-weight: 700;
-  padding-left: 30px;
 }
 
 .sub .col .title-little{
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
 }
 
@@ -252,16 +280,12 @@ main .hero-color {
 
 /* Pdding */
 .little-padding{
-    padding: 5px 0;;
+    padding: 8px 0;
+    border-bottom: 0px;
 }
 
 /* DA ELIMINARE */
-.background-tutto {
-  background-color: red;
-  opacity: 0.5;
-  height: 1800px;
-  border: 1px solid black;
-}
+
 
 .posso {
   background-color: darkgreen;
