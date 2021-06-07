@@ -3,13 +3,12 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Genereal Utilities*/
 .col {
   float: left;
-  border: 1px solid black;
 }
 
 .clearfix::after {
@@ -33,7 +32,25 @@
 header {
   height: 80px;
   width: 100%;
-  background-color: sienna;
+  line-height: 80px;
+}
+
+/* Logo */
+#logo {
+  vertical-align: middle;
+  padding-bottom: 4px;
+}
+
+/* Nav */
+nav li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 /* Main */
@@ -42,11 +59,11 @@ main .hero {
   border: 1px solid black;
 }
 
-main .hero h1{
-    font-size: 60px;
-    padding-top: 80px;
-    padding-bottom: 40px;
-    font-weight: 700;
+main .hero h1 {
+  font-size: 60px;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-weight: 700;
 }
 
 main .banner {
@@ -54,7 +71,7 @@ main .banner {
 }
 
 main .sub {
-    margin-top: 140px;
+  margin-top: 140px;
   height: 1870px;
   border: 1px solid black;
 }
@@ -105,12 +122,12 @@ footer {
 /* Utilities */
 
 /* Width */
-.w-30{
-    width:30%
+.w-30 {
+  width: 30%;
 }
 
-.w-33{
-    width:33%
+.w-33 {
+  width: 33%;
 }
 
 .w-40 {
@@ -130,8 +147,9 @@ footer {
 }
 
 .w-70 {
-    width: 70%;
-  }
+  width: 70%;
+}
+
 /* Text Align */
 .text-right {
   text-align: right;
@@ -142,38 +160,48 @@ main .hero-color {
   background-color: #a2c0e7;
 }
 
+/* Button */
+.btn {
+  text-decoration: none;
+}
+
+.btn.btn-blue {
+  color: white;
+  background-color: #0160FF;
+  padding: 5px 20px;
+}
 
 /* DA ELIMINARE */
-.background-tutto{
-    background-color: red;
-    opacity: 0.5;
-    height: 1800px;
+.background-tutto {
+  background-color: red;
+  opacity: 0.5;
+  height: 1800px;
   border: 1px solid black;
 }
 
-.background-reniented{
-    background-color: blue;
-    opacity: 0.5;
-    height: 800px;
+.background-reniented {
+  background-color: blue;
+  opacity: 0.5;
+  height: 800px;
   border: 1px solid black;
 }
 
-.posso{
-    background-color: darkgreen;
-    height: 200px;
+.posso {
+  background-color: darkgreen;
+  height: 200px;
 }
 
-.nonposso{
-    background-color: darkgoldenrod;
-    height: 200px;
+.nonposso {
+  background-color: darkgoldenrod;
+  height: 200px;
 }
 
-.immmage{
-    background-color: darkred;
-    height: 580px;
+.immmage {
+  background-color: darkred;
+  height: 580px;
 }
 
-.img{
-    height: 200px;
-    background-color: darkslateblue;
+.img {
+  height: 200px;
+  background-color: darkslateblue;
 }
