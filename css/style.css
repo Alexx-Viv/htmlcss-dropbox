@@ -54,9 +54,10 @@ nav a {
 }
 
 /* Main */
+
+/* Hero */
 main .hero {
   height: 700px;
-  border: 1px solid black;
 }
 
 main .hero h1 {
@@ -66,8 +67,23 @@ main .hero h1 {
   font-weight: 700;
 }
 
+main .hero .btn{
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main .hero i{
+    margin-top: 50px;
+}
+
+main .hero img{
+    height: 101%;
+    margin:auto;
+}
+
 main .banner {
-  height: 470px;
+  height: 533px;
 }
 
 main .sub {
@@ -127,12 +143,11 @@ footer {
 }
 
 .w-33 {
-  width: 33%;
+  width: 30%;
 }
 
 .w-40 {
-  width: 40%;
-  background-color: red;
+  width: 25%;
   height: 470px;
 }
 
@@ -141,9 +156,9 @@ footer {
 }
 
 .w-60 {
-  width: 60%;
-  background-color: cyan;
+  width: 75%;
   height: 470px;
+  
 }
 
 .w-70 {
@@ -169,6 +184,11 @@ main .hero-color {
   color: white;
   background-color: #0160FF;
   padding: 5px 20px;
+}
+
+/* Paragraph */
+.box{
+    font-size: 14px;
 }
 
 /* DA ELIMINARE */
@@ -205,3 +225,4 @@ main .hero-color {
   height: 200px;
   background-color: darkslateblue;
 }
+
