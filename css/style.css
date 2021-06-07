@@ -4,6 +4,7 @@
   padding: 0;
   margin: 0;
   font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
 
 body{
@@ -32,6 +33,11 @@ body{
   width: 69%;
   margin: 0 auto;
 }
+
+.fa-check{
+  color: #0160ff;
+}
+
 /* Body */
 
 /* Header */
@@ -99,46 +105,15 @@ main .sub {
   height: 1870px;
 }
 
-.sub .monthly{
-    padding-left: 30px;
-}
 
-.sub .col:nth-child(2){
-  margin: 0 55px;
-}
 
 .sub .col-content{
-    font-size: 14px;
+
     height: 800px;
-}
-
-.sub .col-content ul{
-  padding-top: 30px;
-
 }
 
 .sub .col-content li{
   list-style: none;
-  margin-bottom: 10px;
-}
-
-#uffa{
-  padding:0;
-  border-bottom: 1px solid black;
-}
-
-.sub .col li::before{
-  font-family: "Font Awesome 5 Free"; 
-  font-weight: 900; 
-  content: "\f00c";
-  color: #0160ff;
-}
-
-.sub .col-content .btn{
-  display:  block;
-  text-align: center;
-  margin: 18px auto;
-  width: 85%;
 }
 
 .sub .col .prezzo{
@@ -150,9 +125,6 @@ main .sub {
     font-size: 12px;
 }
 
-.sub .acquista{
-  margin: 0 auto;
-}
 
 /* Enterprise Solution */
 main .enterprise-solution{
@@ -206,6 +178,12 @@ footer {
 /* Utilities */
 
 /* Width */
+.w-5 {
+  display: inline-block;
+  width: 5%;
+  vertical-align: top;
+}
+
 .w-30 {
   width: 30%;
 }
@@ -230,6 +208,12 @@ footer {
 
 .w-70 {
   width: 70%;
+  display: inline-block;
+}
+
+.w-90 {
+  width: 90%;
+  display: inline-block;
 }
 
 /* Text Align */
@@ -306,5 +290,21 @@ main .hero-color {
   height: 200px;
   background-color: darkslateblue;
 }
+.padding{
+  padding: 40px 30px;
+}
 
+.first-list{
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
 
+.prezzo{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.first-list li:nth-child(2){
+  padding: 26px 0;
+}
