@@ -1,4 +1,4 @@
-/* Reset */
+/********** RESET ***********/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,13 +7,13 @@
   font-size: 14px;
 }
 
-body{
-  max-width:1616px;
+body {
+  max-width: 1616px;
   margin: 0 auto;
   border: 1px solid black;
 }
 
-/* Genereal*/
+/********** General ***********/
 .col {
   float: left;
 }
@@ -22,6 +22,18 @@ body{
   content: "";
   display: table;
   clear: both;
+}
+
+img {
+  width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .big-container {
@@ -34,40 +46,153 @@ body{
   margin: 0 auto;
 }
 
-.fa-check{
+.fa-check {
   color: #0160ff;
 }
 
-/* Body */
+hr {
+  height: 1px;
+  border: none;
+  background-color: #000;
+}
 
-/* Header */
+/********** UTILITIES ***********/
+
+/* Width */
+.w-5 {
+  width: 5%;
+  margin-right: 5px;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.w-34 {
+  width: 34%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-66 {
+  width: 66%;
+}
+
+.w-70 {
+  width: 70%;
+  display: inline-block;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+/* Space */
+.py-10{
+  padding: 10px 0;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+/* Text Align */
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Background color */
+.background-color {
+  background-color: #a2c0e7;
+}
+
+/* Button */
+.btn.btn-blue {
+  color: white;
+  background-color: #0160ff;
+  padding: 5px 17px;
+}
+
+.inline-block {
+  display: inline-block;
+}
+/* Title */
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+/* Borders */
+.borders {
+  border: 1px solid gray;
+}
+
+.borders-no-bottom {
+  border: 1px solid gray;
+  border-bottom: 0;
+}
+
+/* Pdding */
+.little-padding {
+  padding: 8px 0;
+  border-bottom: 0px;
+}
+
+/********** BODY ***********/
+
+/********** HEADER ***********/
 header {
   height: 80px;
   width: 100%;
   line-height: 80px;
 }
 
-/* Logo */
-#logo {
+header #logo {
   vertical-align: middle;
   padding-bottom: 4px;
 }
 
-/* Nav */
-nav li {
+header nav li {
   display: inline-block;
   margin: 0 20px;
 }
 
-nav a {
+header nav a {
   color: black;
   text-decoration: none;
   font-size: 16px;
 }
 
-/* Main */
+/********** MAIN ***********/
 
-/* Hero */
+/* HERO */
 main .hero {
   height: 745px;
 }
@@ -90,46 +215,38 @@ main .hero i {
   margin-top: 40px;
 }
 
-main .hero img {
-  height: 100%;
-  margin: auto;
-}
-
-main .banner {
-  height: 533px;
-}
-
 /* Subscription */
+
+main .sub .w-30:nth-child(2) {
+  margin: 0 calc(10% / 2);
+}
+
 main .sub {
   margin-top: 200px;
   height: 1870px;
 }
 
-
-
-.sub .col-content{
-
-    height: 800px;
+.sub .col-content {
+  height: 1000px;
 }
 
-.sub .col-content li{
-  list-style: none;
+.sub .mb-30 a{
+  text-decoration: underline;
 }
 
-.sub .col .prezzo{
-    font-size: 14px;
-    font-weight: 700;
+
+.sub .col .prezzo {
+  font-weight: 700;
 }
 
-.sub .col .utenza{
-    font-size: 12px;
+.sub .col .utenza {
+  font-size: 12px;
 }
-
 
 /* Enterprise Solution */
-main .enterprise-solution{
-    padding-left: 30px;
-    padding-right: 40px;
+main .enterprise-solution {
+  padding-left: 30px;
+  padding-right: 40px;
 }
 
 main .contact {
@@ -175,101 +292,7 @@ footer {
   border: 1px solid black;
 }
 
-/* Utilities */
-
-/* Width */
-.w-5 {
-  display: inline-block;
-  width: 5%;
-  vertical-align: top;
-}
-
-.w-30 {
-  width: 30%;
-}
-
-.w-33 {
-  width: 33%;
-}
-
-.w-34 {
-  width: 34%;
-  height: 480px;
-}
-
-.w-50 {
-  width: 50%;
-}
-
-.w-66 {
-  width: 66%;
-  height: 480px;
-}
-
-.w-70 {
-  width: 70%;
-  display: inline-block;
-}
-
-.w-90 {
-  width: 90%;
-  display: inline-block;
-}
-
-/* Text Align */
-.text-right {
-  text-align: right;
-}
-
-.text-center {
-  text-align: center;
-}
-
-/* Background color */
-main .hero-color {
-  background-color: #a2c0e7;
-}
-
-/* Button */
-.btn {
-  text-decoration: none;
-}
-
-.btn.btn-blue {
-  color: white;
-  background-color: #0160ff;
-  padding: 5px 17px;
-}
-
-/* Paragraph */
-.box {
-  font-size: 14px;
-}
-
-/* Title */
-.title-middle {
-  font-size: 40px;
-  font-weight: 700;
-}
-
-.sub .col .title-little{
-    font-size: 22px;
-    font-weight: 700;
-}
-
-/* Borders */
-.borders {
-  border: 1px solid gray;
-}
-
-/* Pdding */
-.little-padding{
-    padding: 8px 0;
-    border-bottom: 0px;
-}
-
-/* DA ELIMINARE */
-
+/********** DA ELIMINARE ***********/
 
 .posso {
   background-color: darkgreen;
@@ -290,21 +313,25 @@ main .hero-color {
   height: 200px;
   background-color: darkslateblue;
 }
-.padding{
+.padding {
   padding: 40px 30px;
 }
 
-.first-list{
+.first-list {
   display: inline-block;
   margin-top: 50px;
   margin-bottom: 30px;
 }
 
-.prezzo{
+.prezzo {
   padding-top: 20px;
   padding-bottom: 10px;
 }
 
-.first-list li:nth-child(2){
+.first-list li:nth-child(2) {
   padding: 26px 0;
+}
+
+.enterprise-solution{
+  margin-top: 200px;
 }
