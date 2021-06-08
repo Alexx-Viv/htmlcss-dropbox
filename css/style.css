@@ -101,9 +101,22 @@ hr {
   width: 100%;
 }
 
+/* Font Weight */
+.f700{
+  font-weight: 700;
+}
+
 /* Space */
 .py-10{
   padding: 10px 0;
+}
+
+.py-10{
+  padding: 10px 0;
+}
+
+.pt-26{
+  padding-top: 20px;
 }
 
 .mb-30 {
@@ -217,13 +230,13 @@ main .hero i {
 
 /* Subscription */
 
-main .sub .w-30:nth-child(2) {
+.sub .w-30:nth-child(2) {
   margin: 0 calc(10% / 2);
 }
 
-main .sub {
+.sub {
   margin-top: 200px;
-  height: 1870px;
+  margin-bottom: 200px;
 }
 
 .sub .col-content {
@@ -234,13 +247,14 @@ main .sub {
   text-decoration: underline;
 }
 
-
-.sub .col .prezzo {
-  font-weight: 700;
+.sub .prezzo {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
-.sub .col .utenza {
+.sub .utenza {
   font-size: 12px;
+  color: gray;
 }
 
 /* Enterprise Solution */
@@ -323,14 +337,9 @@ footer {
   margin-bottom: 30px;
 }
 
-.prezzo {
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
 
-.first-list li:nth-child(2) {
-  padding: 26px 0;
-}
+
+
 
 .enterprise-solution{
   margin-top: 200px;
