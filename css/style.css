@@ -80,6 +80,10 @@ hr {
   width: 34%;
 }
 
+.w-40 {
+  width: 40%;
+}
+
 .w-50 {
   width: 50%;
 }
@@ -100,25 +104,33 @@ hr {
   width: 100%;
 }
 
+.h-240 {
+  height: 240px;
+}
+
+.w-240 {
+  width: 240px;
+}
+
 /* Font Weight */
-.f700{
+.f700 {
   font-weight: 700;
 }
 
-.underline{
+.underline {
   text-decoration: underline;
 }
 
 /********** SPACE ***********/
-.py-5{
+.py-5 {
   padding: 5px 0;
 }
 
-.py-10{
+.py-10 {
   padding: 10px 0;
 }
 
-.px-15{
+.px-15 {
   padding: 0 15px;
 }
 
@@ -126,35 +138,35 @@ hr {
   padding: 40px 30px;
 }
 
-.pt-20{
+.pt-20 {
   padding-top: 20px;
 }
 
-.pt-30{
+.pt-30 {
   padding-top: 30px;
 }
 
-.pb-50{
+.pb-50 {
   padding-bottom: 50px;
 }
 
-.pl-20{
+.pl-20 {
   padding-left: 20px;
 }
 
-.pl-50{
+.pl-50 {
   padding-left: 50px;
 }
 
-.my-50{
+.my-50 {
   margin: 50px 0;
 }
 
-.mt-20{
+.mt-20 {
   margin-top: 20px;
 }
 
-.mt-40{
+.mt-40 {
   margin-top: 40px;
 }
 
@@ -198,13 +210,12 @@ hr {
   padding: 8px 17px;
 }
 
-
 .inline-block {
   display: inline-block;
 }
 
 /* Title */
-h2{
+h2 {
   font-size: 40px;
 }
 
@@ -290,7 +301,7 @@ main .hero i {
   height: 1000px;
 }
 
-.sub .mb-30 a{
+.sub .mb-30 a {
   text-decoration: underline;
 }
 
@@ -305,11 +316,11 @@ main .hero i {
 }
 
 /* Sub Enterprise Solution */
-.sub .enterprise-solution{
+.sub .enterprise-solution {
   margin-top: 50px;
 }
 
-.sub .enterprise-solution a{
+.sub .enterprise-solution a {
   padding: 10px 0;
 }
 /********** CONTANT ***********/
@@ -317,33 +328,31 @@ main .contact {
   height: 600px;
 }
 
-main .contact h2{
+main .contact h2 {
   font-size: 25px;
 }
 
-main .contact p{
+main .contact p {
   font-size: 16px;
   line-height: 25px;
 }
 
 /********** FETAURE ***********/
 main .feature {
-  height: 1390px;
+  height: 1200px;
 }
 /********** COLLABORATION ***********/
 main .collab {
   height: 1050px;
   border: 1px solid black;
 }
-/********** BRANDS LOGO ***********/
+/********** COLLABORATION TITLE ***********/
 main .brands-title {
   height: 200px;
-  border: 1px solid black;
 }
 /********** BRANDS ***********/
 main .brands {
   height: 480px;
-  border: 1px solid black;
 }
 /********** BRANDS CALL TO ACTION ***********/
 main .brands-cta {
@@ -366,22 +375,95 @@ footer {
 
 /********** DA ELIMINARE ***********/
 
-.posso {
-  background-color: darkgreen;
-  height: 200px;
+.verdino {
+  background-color: #a2d59b;
+}
+.designit {
+  background-image: url("../img/designit.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
 }
 
-.nonposso {
-  background-color: darkgoldenrod;
-  height: 200px;
+.bordeaux {
+  background-color: #63072b;
+}
+.asu {
+  background-image: url("../img/arizona_state_university.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
 }
 
-.immmage {
-  background-color: darkred;
-  height: 580px;
+.light-blue {
+  background-color: #0195cf;
 }
 
-.img {
-  height: 200px;
-  background-color: darkslateblue;
+.uf {
+  background-image: url("../img/university_of_florida.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
+}
+
+.rosso {
+  background-color: red;
+}
+
+.topps {
+  background-image: url("../img/topps.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
+}
+
+.rossino {
+  background-color: #d6001f;
+}
+
+.bluaccio {
+  background-color: #b5d1e9;
+}
+
+.bluastro {
+  background-color: #152c89;
+}
+
+.giallonio {
+  background-color: #ffd931;
+}
+
+.bicycle {
+  background-image: url("../img/world_bicycle_relief.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
+}
+
+.hearts {
+  background-image: url("../img/hearst_corp.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
+}
+.lonely {
+  background-image: url("../img/lonely_planet.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
+}
+
+.outdor {
+  background-image: url("../img/clear_channel.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
 }
