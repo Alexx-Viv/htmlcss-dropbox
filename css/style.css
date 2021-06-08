@@ -1,4 +1,4 @@
-/********** RESET ***********/
+/****************************** RESET *******************************/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -13,7 +13,7 @@ body {
   border: 1px solid black;
 }
 
-/********** General ***********/
+/******************** GENERALS *********************/
 .col {
   float: left;
 }
@@ -56,7 +56,7 @@ hr {
   background-color: #000;
 }
 
-/********** UTILITIES ***********/
+/******************** UTILITIES *********************/
 
 /* Width */
 .w-5 {
@@ -105,8 +105,11 @@ hr {
   font-weight: 700;
 }
 
-/* Space */
+.underline{
+  text-decoration: underline;
+}
 
+/********** SPACE ***********/
 .py-5{
   padding: 5px 0;
 }
@@ -119,18 +122,40 @@ hr {
   padding: 0 15px;
 }
 
-
+.py-40-px-30 {
+  padding: 40px 30px;
+}
 
 .pt-20{
   padding-top: 20px;
+}
+
+.pt-30{
+  padding-top: 30px;
+}
+
+.pb-50{
+  padding-bottom: 50px;
 }
 
 .pl-20{
   padding-left: 20px;
 }
 
+.pl-50{
+  padding-left: 50px;
+}
+
+.my-50{
+  margin: 50px 0;
+}
+
 .mt-20{
   margin-top: 20px;
+}
+
+.mt-40{
+  margin-top: 40px;
 }
 
 .mb-30 {
@@ -142,7 +167,8 @@ hr {
 }
 
 .col-margin {
-  margin: 0 calc(10% / 2);
+  margin-left: calc(10% / 2);
+  margin-right: calc(10% / 2);
 }
 
 /* Text Align */
@@ -160,24 +186,30 @@ hr {
 }
 
 /* Button */
-.btn.btn-blue {
+.btn-blue {
   color: white;
   background-color: #0160ff;
   padding: 5px 17px;
 }
 
+.btn-white {
+  color: #000;
+  border: 1px solid black;
+  padding: 8px 17px;
+}
+
+
 .inline-block {
   display: inline-block;
 }
+
 /* Title */
-h2 {
+h2{
   font-size: 40px;
-  font-weight: 700;
 }
 
 h3 {
   font-size: 22px;
-  font-weight: 700;
 }
 
 /* Borders */
@@ -196,9 +228,9 @@ h3 {
   border-bottom: 0px;
 }
 
-/********** BODY ***********/
+/****************************** BODY *******************************/
 
-/********** HEADER ***********/
+/******************** HEADER *********************/
 header {
   height: 80px;
   width: 100%;
@@ -221,9 +253,9 @@ header nav a {
   font-size: 16px;
 }
 
-/********** MAIN ***********/
+/******************** MAIN *********************/
 
-/* HERO */
+/********** HERO ***********/
 main .hero {
   height: 745px;
 }
@@ -246,12 +278,12 @@ main .hero i {
   margin-top: 40px;
 }
 
-/* SUBSCRIPTION */
+/********** SUBSCRIPTION ***********/
 
 /* Sub Plans Cards */
 .sub {
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 }
 
 .sub .col-content {
@@ -273,46 +305,58 @@ main .hero i {
 }
 
 /* Sub Enterprise Solution */
+.sub .enterprise-solution{
+  margin-top: 50px;
+}
+
 .sub .enterprise-solution a{
   padding: 10px 0;
 }
-
+/********** CONTANT ***********/
 main .contact {
-  height: 625px;
-  border: 1px solid black;
+  height: 600px;
 }
 
+main .contact h2{
+  font-size: 25px;
+}
+
+main .contact p{
+  font-size: 16px;
+  line-height: 25px;
+}
+
+/********** FETAURE ***********/
 main .feature {
   height: 1390px;
-  border: 1px solid black;
 }
-
+/********** COLLABORATION ***********/
 main .collab {
   height: 1050px;
   border: 1px solid black;
 }
-
+/********** BRANDS LOGO ***********/
 main .brands-title {
   height: 200px;
   border: 1px solid black;
 }
-
+/********** BRANDS ***********/
 main .brands {
   height: 480px;
   border: 1px solid black;
 }
-
+/********** BRANDS CALL TO ACTION ***********/
 main .brands-cta {
   height: 360px;
   border: 1px solid black;
 }
-
+/********** F.A.Q. ***********/
 main .faq {
   height: 720px;
   border: 1px solid black;
 }
 
-/* Footer */
+/******************** FOOTER *********************/
 footer {
   height: 500px;
   width: 100%;
@@ -340,21 +384,4 @@ footer {
 .img {
   height: 200px;
   background-color: darkslateblue;
-}
-.padding {
-  padding: 40px 30px;
-}
-
-.first-list {
-  display: inline-block;
-  margin-top: 50px;
-  margin-bottom: 30px;
-}
-
-
-
-
-
-.enterprise-solution{
-  margin-top: 200px;
 }
