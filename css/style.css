@@ -18,6 +18,10 @@ body {
   float: left;
 }
 
+.col-right {
+  float: right;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -68,6 +72,10 @@ hr {
   width: 20%;
 }
 
+.w-10 {
+  width: 10%;
+}
+
 .w-30 {
   width: 30%;
 }
@@ -100,8 +108,16 @@ hr {
   width: 90%;
 }
 
+.w-95 {
+  width: 95%;
+}
+
 .w-100 {
   width: 100%;
+}
+
+.h-480 {
+  height: 480px;
 }
 
 .h-240 {
@@ -154,8 +170,16 @@ hr {
   padding-left: 20px;
 }
 
+.pl-30 {
+  padding-left: 30px;
+}
+
 .pl-50 {
   padding-left: 50px;
+}
+
+.pr-50 {
+  padding-right: 50px;
 }
 
 .my-50 {
@@ -166,8 +190,24 @@ hr {
   margin-top: 20px;
 }
 
+.mt-30{
+  margin-top: 30px;
+}
+
 .mt-40 {
   margin-top: 40px;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mt-120 {
+  margin-top: 120px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
 }
 
 .mb-30 {
@@ -344,81 +384,43 @@ main .feature {
 /********** COLLABORATION ***********/
 main .collab {
   height: 1050px;
-  border: 1px solid black;
 }
 /********** COLLABORATION TITLE ***********/
 main .brands-title {
   height: 200px;
 }
-/********** BRANDS ***********/
-main .brands {
-  height: 480px;
-}
+
 /********** BRANDS CALL TO ACTION ***********/
 main .brands-cta {
   height: 360px;
-  border: 1px solid black;
-}
-/********** F.A.Q. ***********/
-main .faq {
-  height: 720px;
-  border: 1px solid black;
 }
 
-/******************** FOOTER *********************/
-footer {
-  height: 500px;
-  width: 100%;
-  background-color: sandybrown;
-  border: 1px solid black;
+/********** BRANDS ***********/
+
+.brands img {
+  width: 20%;
 }
 
-/********** DA ELIMINARE ***********/
+.brands-cta a {
+  border: none;
+  background-color: white;
+}
 
+/* COLORI BRANDS */
 .verdino {
   background-color: #a2d59b;
-}
-.designit {
-  background-image: url("../img/designit.svg");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: center;
-  filter: invert(100%);
 }
 
 .bordeaux {
   background-color: #63072b;
-}
-.asu {
-  background-image: url("../img/arizona_state_university.svg");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: center;
-  filter: invert(100%);
 }
 
 .light-blue {
   background-color: #0195cf;
 }
 
-.uf {
-  background-image: url("../img/university_of_florida.svg");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: center;
-  filter: invert(100%);
-}
-
 .rosso {
   background-color: red;
-}
-
-.topps {
-  background-image: url("../img/topps.svg");
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: center;
-  filter: invert(100%);
 }
 
 .rossino {
@@ -437,6 +439,15 @@ footer {
   background-color: #ffd931;
 }
 
+.marroncino {
+  background-color: #f6f6f6;
+}
+
+.lightgray{
+  background-color: lightgray;
+}
+
+/* BRANDS LOGOS */
 .bicycle {
   background-image: url("../img/world_bicycle_relief.svg");
   background-repeat: no-repeat;
@@ -466,4 +477,85 @@ footer {
   background-size: 60%;
   background-position: center;
   filter: invert(100%);
+}
+
+.designit {
+  background-image: url("../img/designit.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
+}
+
+.asu {
+  background-image: url("../img/arizona_state_university.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
+}
+
+.uf {
+  background-image: url("../img/university_of_florida.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
+}
+
+.topps {
+  background-image: url("../img/topps.svg");
+  background-repeat: no-repeat;
+  background-size: 60%;
+  background-position: center;
+  filter: invert(100%);
+}
+
+/********** F.A.Q. ***********/
+main .faq {
+  padding-top: 100px;
+  height: 700px;
+}
+
+main .faq h2{
+  font-size: 32px;
+}
+
+/******************** FOOTER *********************/
+footer {
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+footer li{
+  line-height: 30px;
+}
+
+footer .clearfix{
+  padding-top: 100px;
+
+}
+
+footer .first-li{
+  font-size: 20px;
+}
+
+/********** DA ELIMINARE ***********/
+
+.granata {
+  color: #63072b;
+}
+
+.f-16 {
+  font-size: 16px;
+}
+
+.first-li{
+  font-weight: 18px;
+}
+
+.f-lightgray{
+  color: lightgray;
 }
